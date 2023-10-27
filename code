@@ -1,0 +1,30 @@
+def simple_calculator(num1, num2, operation):
+    if operation == '+':
+        print(num1+num2)
+    elif operation == '-':
+        print(num1-num2)
+    
+simple_calculator(3, 4, '+')
+
+print()
+
+def CandyDispenser(num):
+    while num > 0:
+        print("you have", num, "pieces of candy left")
+        candy = (input("do you want snickers or m&ms"))
+        if candy == 'snickers':
+            print("heres your snickers")
+        elif candy == 'm&ms':
+            print("heres your m&ms")
+        num -= 1
+            
+CandyDispenser(2)
+
+print()
+
+def OobaAdder():
+    word = (input("enter a word:"))
+    print(word+"ooba")
+    
+OobaAdder()
+ 
